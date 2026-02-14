@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PrimeCanvas Studio – Global digital agency. Website development, UI/UX design, CRM, graphic design, video editing, social media & performance marketing. US, Germany, UAE, India.">
+  <meta name="keywords" content="digital agency, website development, UI/UX design, CRM development, graphic design, video editing, social media management, Google Ads, PrimeCanvas Studio">
+  <title>PrimeCanvas Studio | Build. Design. Scale. – Global Digital Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Sticky Header -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="#" class="logo">PrimeCanvas<span>Studio</span></a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#industries">Industries</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn-primary btn-header">Book Free Consultation</a>
+      <button class="nav-toggle" aria-label="Toggle menu" type="button">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <div class="hero-gradient"></div>
+        <div class="hero-glow hero-glow-1"></div>
+        <div class="hero-glow hero-glow-2"></div>
+        <div class="hero-glow hero-glow-3"></div>
+        <!-- Decorative grid -->
+        <div class="hero-grid" aria-hidden="true"></div>
+        <!-- Floating shapes -->
+        <div class="hero-shapes" aria-hidden="true">
+          <div class="hero-shape hero-shape-1"></div>
+          <div class="hero-shape hero-shape-2"></div>
+          <div class="hero-shape hero-shape-3"></div>
+          <div class="hero-shape hero-shape-4"></div>
+          <div class="hero-shape hero-shape-5"></div>
+        </div>
+        <!-- Abstract dashboard graphic -->
+        <div class="hero-graphic" aria-hidden="true">
+          <svg viewBox="0 0 400 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="20" y="20" width="360" height="200" rx="12" stroke="url(#heroStroke)" stroke-width="1" fill="none" opacity="0.4"/>
+            <line x1="20" y1="56" x2="380" y2="56" stroke="url(#heroStroke)" stroke-width="0.5" opacity="0.3"/>
+            <circle cx="44" cy="38" r="4" fill="#22D3EE" opacity="0.6"/>
+            <circle cx="62" cy="38" r="4" fill="#7C3AED" opacity="0.5"/>
+            <circle cx="80" cy="38" r="4" fill="#2563EB" opacity="0.5"/>
+            <rect x="44" y="72" width="80" height="48" rx="4" fill="url(#heroFill)" opacity="0.2"/>
+            <rect x="140" y="72" width="120" height="48" rx="4" fill="url(#heroFill)" opacity="0.15"/>
+            <rect x="276" y="72" width="84" height="48" rx="4" fill="url(#heroFill)" opacity="0.2"/>
+            <rect x="44" y="132" width="316" height="56" rx="4" fill="url(#heroFill)" opacity="0.1"/>
+            <defs>
+              <linearGradient id="heroStroke" x1="0" y1="0" x2="400" y2="240" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#2563EB"/>
+                <stop offset="0.5" stop-color="#7C3AED"/>
+                <stop offset="1" stop-color="#22D3EE"/>
+              </linearGradient>
+              <linearGradient id="heroFill" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+                <stop stop-color="#22D3EE" stop-opacity="0.3"/>
+                <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+      <div class="container hero-content">
+        <h1 class="hero-title">
+          <span class="hero-word">Build.</span>
+          <span class="hero-word">Design.</span>
+          <span class="hero-word">Scale.</span>
+        </h1>
+        <p class="hero-subtitle animate-in delay-1">We Create High-Performance Digital Systems for Modern Brands Worldwide.</p>
+        <div class="hero-cta animate-in delay-2">
+          <a href="#contact" class="btn btn-primary btn-glow btn-shine">Book Free Consultation</a>
+          <a href="#portfolio" class="btn btn-secondary">View Portfolio</a>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="section-accent section-accent-about" aria-hidden="true"></div>
+      <div class="container">
+        <h2 class="section-title section-title-line animate-in">About PrimeCanvas Studio</h2>
+        <div class="about-content glass-card animate-in">
+          <p class="about-lead">PrimeCanvas Studio is a <strong>global digital growth agency</strong> delivering scalable websites, powerful CRM systems, impactful graphic design, and performance-driven marketing solutions.</p>
+          <p>We serve startups and businesses across <strong>US, Germany, UAE, and India</strong>.</p>
+          <p>Our focus is <strong>strategy</strong>, <strong>creativity</strong>, and <strong>measurable performance</strong>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section services" id="services">
+      <div class="container">
+        <h2 class="section-title section-title-line animate-in">Our Services</h2>
+        <p class="section-subtitle animate-in">Premium solutions for modern brands</p>
+        <div class="services-grid">
+          <article class="service-card glass-card animate-in" style="--stagger: 0">
+            <span class="service-icon">💻</span>
+            <h3>Website Development</h3>
+            <p>Custom responsive websites built for speed, performance, and scalability.</p>
+          </article>
+          <article class="service-card glass-card animate-in" style="--stagger: 1">
+            <span class="service-icon">🎨</span>
+            <h3>UI/UX Design</h3>
+            <p>User-centered interfaces that increase engagement and conversions.</p>
+          </article>
+          <article class="service-card glass-card animate-in" style="--stagger: 2">
+            <span class="service-icon">🖥</span>
+            <h3>CRM Development</h3>
+            <p>Smart CRM systems to manage customers, sales, and operations efficiently.</p>
+          </article>
+          <article class="service-card glass-card animate-in" style="--stagger: 3">
+            <span class="service-icon">🖌</span>
+            <h3>Graphic Design</h3>
+            <p>Professional branding, logos, marketing creatives, social media posts, banners, brochures, ad creatives, and product visuals.</p>
+          </article>
+          <article class="service-card glass-card animate-in" style="--stagger: 4">
+            <span class="service-icon">🎬</span>
+            <h3>Video Editing & Creative Media</h3>
+            <p>High-quality promotional videos, reels, product ads, and motion graphics.</p>
+          </article>
+          <article class="service-card glass-card animate-in" style="--stagger: 5">
+            <span class="service-icon">📢</span>
+            <h3>Social Media Management</h3>
+            <p>Daily posts, content planning, engagement management, growth strategy.</p>
+          </article>
+          <article class="service-card glass-card animate-in" style="--stagger: 6">
+            <span class="service-icon">📦</span>
+            <h3>Product Marketing</h3>
+            <p>Go-to-market strategy, positioning, launch campaigns, and sales enablement.</p>
+          </article>
+          <article class="service-card glass-card animate-in" style="--stagger: 7">
+            <span class="service-icon">📈</span>
+            <h3>Google Ads & Performance Marketing</h3>
+            <p>Data-driven campaigns focused on traffic, leads, and ROI.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Industries -->
+    <section class="section industries" id="industries">
+      <div class="container">
+        <h2 class="section-title section-title-line animate-in">Industries We Serve</h2>
+        <p class="section-subtitle animate-in">Tailored solutions for your sector</p>
+        <div class="industries-grid">
+          <article class="industry-card glass-card animate-in">
+            <div class="industry-visual" style="--accent: #22D3EE;">
+              <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=400&fit=crop" alt="Healthcare">
+              <span class="industry-icon">🏥</span>
+            </div>
+            <h3>Hospitals & Healthcare</h3>
+          </article>
+          <article class="industry-card glass-card animate-in">
+            <div class="industry-visual" style="--accent: #F59E0B;">
+              <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop" alt="Restaurant">
+              <span class="industry-icon">🍽</span>
+            </div>
+            <h3>Restaurants</h3>
+          </article>
+          <article class="industry-card glass-card animate-in">
+            <div class="industry-visual" style="--accent: #EC4899;">
+              <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600&h=400&fit=crop" alt="Beauty">
+              <span class="industry-icon">💄</span>
+            </div>
+            <h3>Beauty & Salons</h3>
+          </article>
+          <article class="industry-card glass-card animate-in">
+            <div class="industry-visual" style="--accent: #10B981;">
+              <img src="https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=600&h=400&fit=crop" alt="Retail">
+              <span class="industry-icon">🛍</span>
+            </div>
+            <h3>Grocery & Retail</h3>
+          </article>
+          <article class="industry-card glass-card animate-in">
+            <div class="industry-visual" style="--accent: #7C3AED;">
+              <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=600&h=400&fit=crop" alt="DJs & Entertainment">
+              <span class="industry-icon">🎧</span>
+            </div>
+            <h3>DJs & Entertainment</h3>
+          </article>
+          <article class="industry-card glass-card animate-in">
+            <div class="industry-visual" style="--accent: #EF4444;">
+              <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&h=400&fit=crop" alt="Fitness">
+              <span class="industry-icon">💪</span>
+            </div>
+            <h3>Gym & Fitness</h3>
+          </article>
+          <article class="industry-card glass-card animate-in">
+            <div class="industry-visual" style="--accent: #8B5CF6;">
+              <img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=600&h=400&fit=crop" alt="Influencers & Social Brands">
+              <span class="industry-icon">📱</span>
+            </div>
+            <h3>Influencers & Social Brands</h3>
+          </article>
+          <article class="industry-card glass-card animate-in">
+            <div class="industry-visual" style="--accent: #2563EB;">
+              <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=400&fit=crop" alt="Startup">
+              <span class="industry-icon">🚀</span>
+            </div>
+            <h3>Startups & SaaS</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="section-title section-title-line animate-in">Portfolio</h2>
+        <p class="section-subtitle animate-in">Recent work for global clients</p>
+        <div class="portfolio-grid">
+          <article class="portfolio-card glass-card animate-in">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&h=400&fit=crop" alt="MediCare Plus">
+              <span class="portfolio-image-label">MediCare Plus</span>
+            </div>
+            <div class="portfolio-info">
+              <h3>MediCare Plus</h3>
+              <span class="portfolio-industry">Hospital Website</span>
+              <p>Modern healthcare website with appointment booking and patient portal.</p>
+              <span class="portfolio-tech">React • Node • Healthcare UI</span>
+            </div>
+          </article>
+          <article class="portfolio-card glass-card animate-in">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop" alt="Urban Taste">
+              <span class="portfolio-image-label">Urban Taste</span>
+            </div>
+            <div class="portfolio-info">
+              <h3>Urban Taste</h3>
+              <span class="portfolio-industry">Restaurant Branding & Website</span>
+              <p>Full branding, menu design, and responsive restaurant website.</p>
+              <span class="portfolio-tech">Branding • WordPress • Graphic Design</span>
+            </div>
+          </article>
+          <article class="portfolio-card glass-card animate-in">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600&h=400&fit=crop" alt="GlowBeauty Studio">
+              <span class="portfolio-image-label">GlowBeauty</span>
+            </div>
+            <div class="portfolio-info">
+              <h3>GlowBeauty Studio</h3>
+              <span class="portfolio-industry">Beauty Brand Graphics & Social Media</span>
+              <p>Visual identity, social content, and campaign creatives.</p>
+              <span class="portfolio-tech">Graphic Design • Social Media • Ads</span>
+            </div>
+          </article>
+          <article class="portfolio-card glass-card animate-in">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=600&h=400&fit=crop" alt="FreshCart">
+              <span class="portfolio-image-label">FreshCart</span>
+            </div>
+            <div class="portfolio-info">
+              <h3>FreshCart</h3>
+              <span class="portfolio-industry">Grocery E-commerce Platform</span>
+              <p>E-commerce platform with inventory and delivery integration.</p>
+              <span class="portfolio-tech">Shopify • React • Payment APIs</span>
+            </div>
+          </article>
+          <article class="portfolio-card glass-card animate-in">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&h=400&fit=crop" alt="FitNation Gym">
+              <span class="portfolio-image-label">FitNation</span>
+            </div>
+            <div class="portfolio-info">
+              <h3>FitNation Gym</h3>
+              <span class="portfolio-industry">Fitness Website + Ads</span>
+              <p>Gym website with class booking and performance ad campaigns.</p>
+              <span class="portfolio-tech">Web • Google Ads • Creative</span>
+            </div>
+          </article>
+          <article class="portfolio-card glass-card animate-in">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=600&h=400&fit=crop" alt="DJ NightWave">
+              <span class="portfolio-image-label">DJ NightWave</span>
+            </div>
+            <div class="portfolio-info">
+              <h3>DJ NightWave</h3>
+              <span class="portfolio-industry">Event Branding & Posters</span>
+              <p>Event branding, posters, and promotional graphics.</p>
+              <span class="portfolio-tech">Graphic Design • Print • Social</span>
+            </div>
+          </article>
+          <article class="portfolio-card glass-card animate-in">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=600&h=400&fit=crop" alt="InfluencerX">
+              <span class="portfolio-image-label">InfluencerX</span>
+            </div>
+            <div class="portfolio-info">
+              <h3>InfluencerX</h3>
+              <span class="portfolio-industry">Personal Brand Website & Content</span>
+              <p>Personal brand site and content strategy for influencers.</p>
+              <span class="portfolio-tech">Web • Content • Social</span>
+            </div>
+          </article>
+          <article class="portfolio-card glass-card animate-in">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="StartupFlow CRM">
+              <span class="portfolio-image-label">StartupFlow</span>
+            </div>
+            <div class="portfolio-info">
+              <h3>StartupFlow CRM</h3>
+              <span class="portfolio-industry">SaaS Dashboard System</span>
+              <p>Custom CRM dashboard for sales and customer management.</p>
+              <span class="portfolio-tech">React • Node • CRM</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="section reviews" id="reviews">
+      <div class="container">
+        <h2 class="section-title section-title-line animate-in">What Clients Say</h2>
+        <p class="section-subtitle animate-in">Worked with startups and international clients from US, Germany, UAE, and India.</p>
+        <div class="reviews-slider">
+          <div class="reviews-track">
+            <blockquote class="review-card glass-card">
+              <div class="review-stars">★★★★★</div>
+              <p>“PrimeCanvas Studio transformed our digital presence completely. Professional, fast, and highly skilled.”</p>
+              <footer>— Founder, US Startup</footer>
+            </blockquote>
+            <blockquote class="review-card glass-card">
+              <div class="review-stars">★★★★★</div>
+              <p>“Outstanding graphic design and Google Ads performance. We saw real growth.”</p>
+              <footer>— Business Owner, Germany</footer>
+            </blockquote>
+            <blockquote class="review-card glass-card">
+              <div class="review-stars">★★★★★</div>
+              <p>“They handled our website, social media, and marketing strategy perfectly.”</p>
+              <footer>— Marketing Director, UAE</footer>
+            </blockquote>
+          </div>
+          <div class="reviews-dots" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="section why-us" id="why-us">
+      <div class="container">
+        <h2 class="section-title section-title-line animate-in">Why Choose Us</h2>
+        <div class="why-grid">
+          <div class="why-card glass-card animate-in">
+            <span class="why-icon">🌐</span>
+            <h3>Global Client Experience</h3>
+          </div>
+          <div class="why-card glass-card animate-in">
+            <span class="why-icon">📊</span>
+            <h3>Data-Driven Marketing</h3>
+          </div>
+          <div class="why-card glass-card animate-in">
+            <span class="why-icon">✨</span>
+            <h3>Modern Design Systems</h3>
+          </div>
+          <div class="why-card glass-card animate-in">
+            <span class="why-icon">⚡</span>
+            <h3>Fast Turnaround</h3>
+          </div>
+          <div class="why-card glass-card animate-in">
+            <span class="why-icon">🤝</span>
+            <h3>Long-Term Growth Partnership</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="section-accent section-accent-contact" aria-hidden="true"></div>
+      <div class="container">
+        <h2 class="section-title section-title-line contact-title animate-in">Let’s Build Something Exceptional</h2>
+        <div class="contact-wrap">
+          <form class="contact-form glass-card animate-in" action="#" method="post" id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" placeholder="Company name">
+            <label for="service">Service Needed</label>
+            <select id="service" name="service">
+              <option value="">Select a service</option>
+              <option value="website">Website Development</option>
+              <option value="uiux">UI/UX Design</option>
+              <option value="crm">CRM Development</option>
+              <option value="graphic">Graphic Design</option>
+              <option value="video">Video Editing</option>
+              <option value="social">Social Media Management</option>
+              <option value="product">Product Marketing</option>
+              <option value="ads">Google Ads & Performance Marketing</option>
+            </select>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Tell us about your project"></textarea>
+            <button type="submit" class="btn btn-primary btn-glow">Send Message</button>
+          </form>
+          <div class="contact-info animate-in">
+            <p class="contact-email"><a href="mailto:contact@primecanvasstudio.com">contact@primecanvasstudio.com</a></p>
+            <p class="contact-whatsapp"><a href="https://wa.me/919079111857" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp +91 9079111857">WhatsApp: +91 9079111857</a></p>
+            <div class="contact-social">
+              <a href="https://instagram.com/Prime_Canvas" target="_blank" rel="noopener noreferrer" aria-label="Instagram @Prime_Canvas">Instagram</a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+              <a href="https://wa.me/919079111857" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-glow" aria-hidden="true"></div>
+    <div class="container">
+      <p>&copy; <span id="year"></span> PrimeCanvas Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
